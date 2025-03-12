@@ -9,10 +9,10 @@ from pyrogram.raw.all import layer
 from utils import Media
 
 # Load environment variables
-SESSION = os.getenv("SESSION", "my_bot")
+SESSION = os.getenv("SESSION", "Files")
 APP_ID = int(os.getenv("APP_ID", "29191109"))  # Ensure it is an integer
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+API_HASH = os.getenv("API_HASH", "cac582c764755531d7fde92e444a23b7")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7667583520:AAFDcTkJ5Th-ZRJjsk9aPCZ2Fb5RYBbnS1Y")
 
 # Ensure required variables are set
 if APP_ID == 29191109 or not API_HASH or not BOT_TOKEN:
